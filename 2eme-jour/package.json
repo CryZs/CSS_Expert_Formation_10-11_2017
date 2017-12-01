@@ -1,0 +1,32 @@
+{
+  "name": "2eme-jour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "node-sass --recursive --output css scss",
+    "lint:scss": "stylelint scss/**/*.scss",
+    "lint:scss:fix": "stylelint --fix scss/**/*.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "chalk": "^2.3.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if-else": "^1.0.3",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.6.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-recommended": "^1.0.0"
+  }
+}

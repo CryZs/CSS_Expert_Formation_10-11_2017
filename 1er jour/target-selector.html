@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF_8">
+        <title>Titre</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin:0;
+                padding:0;
+            }
+            .page:not(:target){
+                display:none;
+            }
+            
+            // garder les espaces qui sont automatiquement supprimés par le navigateur
+            p {
+                white-space: pre;
+            }
+            
+            
+            .exercice#exercice-position{
+                position:relative;
+                width:100%;
+                background-color:lightgrey;
+            }
+            .exercice#exercice-position .block{
+                display:inline-block;
+                width:50px;
+                height:50px;
+            }
+            
+            
+            
+            
+            
+            // DIV BACKGROUND COLOR //
+            
+            .blue {
+                background-color:blue;
+            }
+            .red {
+                background-color:red;
+            }
+            .green {
+                background-color:green;
+            }
+            .pink {
+                background-color:pink;
+            }
+            .grey {
+                background-color:lightgrey;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav id='menu'>
+            <a href='#exercice-position'>Exercice de positionnement</a>
+            <a href='#page1'>Page 1</a>
+            <a href='#page2'>Page 2</a>
+            <a href='#page3'>Page 3</a>
+        </nav>
+        <div class='page' id='exercice-position'>
+            <div class='block red'></div>
+            <div class='block blue'></div>
+            <div class='block green'></div>
+        </div>
+        
+        <div class="page" id="page1">
+            <h2>Page 1</h2>
+            <p>                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+        </div>
+        <div class="page" id="page2">
+            <h2>Page 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+        </div>
+        <div class="page" id="page3">
+            <h2>Page 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis consequat odio, at ornare augue. Integer hendrerit accumsan aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lectus felis, bibendum at ante efficitur, egestas pulvinar diam. Donec commodo et elit ut elementum. Etiam rutrum magna posuere, scelerisque mi ut, laoreet risus. Etiam vel iaculis massa, quis ultrices dui.</p>
+        </div>
+    </body>
+</html>

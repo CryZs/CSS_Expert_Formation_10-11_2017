@@ -1,0 +1,62 @@
+@keyframes myanimation{
+    0%{ top: 0;left: 0;background-color:red;}
+    5%{top: 1%;left: 5%;background-color:brown;}
+    10%{top: 89%;left: 32%;background-color:lime;}
+    15%{top: 2%;left: 13%;background-color:blue;}
+    20%{top: 88%;left: 75%;background-color:orange;}
+    25%{top: 3%;left: 0%;background-color:yellow;}
+    30%{top: 87%;left: 85%;background-color:pink;}
+    35%{top: 4%;left: 55%;background-color:green;}
+    40%{top: calc(94% - 100px);left: 6%;background-color:black;}
+    45%{top: 5%;left: 2%;background-color:aliceblue;}
+    50%{top: 85%;left: 65%;background-color:sandybrown;}
+    55%{top: 1%;left: 5%;background-color:chartreuse;}
+    60%{top: calc(96% - 100px);left: 32%;background-color:bisque;}
+    65%{top: 0%;left: 60%;background-color:royalblue;}
+    70%{top: 88%;left: 75%;background-color:navajowhite;}
+    75%{top: 3%;left: 0%;background-color:khaki;}
+    80%{top: 87%;left: 85%;background-color:lawngreen;}
+    85%{top: 4%;left: 55%;background-color:azure;}
+    90%{top: 86%;left: 6%;background-color:peru;}
+    95%{top: 5%;left: 2%;background-color:rebeccapurple;}
+    98%{top: 85%;left: 65%;background-color:crimson;}
+    100%{top: calc(54% - 100px);left: calc(90% - 100px);background-color:red;}
+}
+
+@keyframes circle {
+    0%{top:calc(50% - 100px);left:calc(100% - 100px);}
+    25%{top:calc(100% - 100px);left:calc(50% - 100px);}
+    50%{top:calc(50% - 100px);left:calc(0% + 100px);}
+    75%{top:calc(0% + 100px);left:calc(50% - 100px);}
+    100%{top:calc(50% + 100%);left:calc(100% - 100px);}
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.animate{
+    position:absolute;
+    top: 0;left: 0;
+    width: 100px;height: 100px;
+    background-color: royalblue;
+    animation-name:circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:forwards;
+}
+
+.animate2{
+    position:absolute;
+    top: 0;left: 0;
+    width: 100px;height: 100px;
+    background-color: royalblue;
+    animation-name:;
+    animation-duration:6s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode:forwards;
+}

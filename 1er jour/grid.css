@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.page{
+    display:grid;
+    position:relative;
+    width:100%;
+    height:100%;
+    grid-template:[header-left] "head head head"       .125fr [header-right]
+                  [main-left]   "nav content content"  1fr [main-right]
+                  [footer-left] "nav footer footer" .125fr [footer-right];
+    grid-template-columns: 250px 1fr;
+}
+header {
+    background-color:lightblue;
+    grid-area: head;
+}
+aside {
+    background-color:mediumvioletred;
+    grid-area: nav;
+}
+.container {
+    background-color:lightgreen;
+    grid-area: content;
+}
+footer {
+    background-color:lightcoral;
+    grid-area: footer;
+}
